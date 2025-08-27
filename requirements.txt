@@ -1,15 +1,4 @@
 streamlit
-whisper
-numpy
-pydub
-langdetect
-streamlit-webrtc
-google-auth
-google-auth-oauthlib
-google-api-python-client
-deep_translator
-av
-streamlit
 openai-whisper
 torch
 deep-translator
@@ -17,3 +6,6 @@ google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
 firebase-admin
+pydub
+pyaudio
+ffmpeg-python

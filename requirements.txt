@@ -1,11 +1,14 @@
 streamlit
 openai-whisper
 langdetect
-deep-translator
+streamlit-webrtc
+av
+numpy
+pydub
 google-api-python-client
 google-auth
 google-auth-oauthlib
 google-auth-httplib2
 requests
 regex
-streamlit-webrtc
+deep-translator

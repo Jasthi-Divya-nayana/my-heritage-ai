@@ -1,9 +1,10 @@
 streamlit
-pydub
+openai-whisper
+langdetect
+deep-translator
+google-api-python-client
 google-auth
 google-auth-oauthlib
 google-auth-httplib2
-google-api-python-client
-whisper
-openai-whisper
-deep-translator
+requests
+regex

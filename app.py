@@ -83,7 +83,12 @@ if ctx and ctx.state.playing:
     if st.button("🔴 Stop & Transcribe"):
         if ctx.audio_processor:
             # Convert frames to WAV
-            audio = np.concatenate(ctx.audio_processor.frames)
+           if ctx.audio_processor.frames:
+    audio = np.concatenate(ctx.audio_processor.frames)
+else:
+    st.warning("No audio captured yet. Please record again.")
+    st.stop()
+
             with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as tmp:
                 sf.write(tmp.name, audio, 16000)  # write as 16kHz WAV
                 tmp_path = tmp.name
